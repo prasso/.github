@@ -32,7 +32,7 @@ Partner with us to transform your business with a tailored software solution tha
 
 1. **Get Started**: Clone the Prasso api and app repositories to your local machine.
 2. **Configure**: Customize your app using our admin tools and configure it to suit your specific business needs.
-3. **Deploy**: Deploy your app to the Prasso site and watch as it becomes accessible to users across all platforms.
+3. **Deploy**: Deploy your app to your server site and watch as it becomes accessible to users across all platforms.
 4. **Mobile Experience**: Users with assigned team and app credentials can access their personalized mobile app, crafted from the assembled presentation on the Prasso site.
 
 ## Contributing
