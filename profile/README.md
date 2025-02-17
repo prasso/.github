@@ -1,11 +1,11 @@
 
 # Prasso
 
-**Prasso** provides multi-site hosting and app development for small businesses, leveraging Laravel and Flutter frameworks.
+**Prasso** provides multi-site hosting and app development for small businesses, leveraging Laravel framework.
 
 ## Overview
 
-Prasso is an open-source template designed to simplify web and mobile app development with a low-code approach. Prasso.io offers hosting, a flexible API, and admin tools for easy content management, all powered by Filament’s admin functionality.
+Prasso is an open-source template designed to simplify small business web development with a low-code approach. Prasso.io offers hosting, a flexible API, and admin tools for easy content management, all powered by Filament’s admin functionality.
 
 ## Features
 
