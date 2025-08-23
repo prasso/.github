@@ -38,6 +38,6 @@ Prasso is licensed under the [MIT License](LICENSE.md).
 
 ## Support
 
-For help, contact [info@prasso.io](mailto:info@prasso.io). 
+For help, contact [info@faxt.com](mailto:info@faxt.com). 
 
 
