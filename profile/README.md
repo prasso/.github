@@ -1,100 +1,118 @@
-# Faxt - Multi-Tenant SaaS Platform
+# Faxt — Multi‑Tenant SaaS Platform (formerly Prasso)
 
-**Faxt** (formerly Prasso) is a powerful multi-tenant framework designed for building and hosting Software-as-a-Service applications with framework flexibility.
+**Faxt** is an open‑source, multi‑tenant platform for building and hosting SaaS applications with framework flexibility. It provides a robust foundation for multi‑site hosting, modular extensibility, and API‑driven development using Laravel, React, or both.
+
+---
 
 ## Overview
 
-Faxt is an open-source platform that enables developers to create scalable multi-tenant SaaS applications using Laravel, React, or both. Originally developed as Prasso, our platform now operates under the faxt.com domain and focuses on providing a robust foundation for multi-site hosting and modular extensibility with your preferred technology stack.
+Faxt (previously Prasso) powers scalable multi‑tenant SaaS apps with a flexible architecture that supports modern web and mobile experiences. It runs under the **faxt.com** domain and focuses on rapid tenant provisioning, modular packages, and an API‑first backend.
+
+---
 
 ## Key Features
 
-- **Multi-Tenant Architecture**: Host multiple independent applications on a single codebase with complete data isolation
-- **Framework-Flexible Design**: Build with Laravel backend, React frontend, or integrate both seamlessly
-- **Modular Plugin System**: Extend functionality through modular packages and components
-- **SaaS-Ready Foundation**: Built-in tenant management, billing integration, and subscription handling
-- **Modern Admin Interface**: Intuitive administration across all tenants with powerful dashboard capabilities
-- **API-First Design**: RESTful APIs for seamless integration with mobile apps, SPAs, and third-party services
-- **Low-Code Configuration**: Deploy new tenant sites with minimal custom development
+- **Multi‑Tenant Architecture** — Host multiple apps on one codebase with full data isolation  
+- **Framework‑Flexible** — Laravel backend, React frontend, or full‑stack integration  
+- **Modular Plugin System** — Extend via packages and components  
+- **SaaS‑Ready** — Tenant management, billing integration, subscription handling  
+- **Modern Admin Interface** — Centralized dashboards and tenant tooling  
+- **API‑First** — RESTful APIs for mobile, SPA, and third‑party integrations  
+- **Low‑Code Configuration** — Deploy new tenant sites quickly with minimal dev work  
 
-## Multi-Tenant SaaS Capabilities
+---
 
-- **Tenant Isolation**: Complete separation of data, configurations, and customizations per tenant
-- **Dynamic Subdomain/Domain Routing**: Support for custom domains and automated subdomain provisioning
-- **Scalable Architecture**: Add features through modular packages without affecting other tenants
-- **Centralized Management**: Single dashboard to manage multiple client applications
-- **Individual Site Hosting**: Each tenant can operate as an independent website with custom branding
-- **Technology Stack Choice**: Deploy tenants with Laravel, React, or full-stack configurations
+## Multi‑Tenant SaaS Capabilities
+
+- **Tenant Isolation** — Separate data, config, and customizations per tenant  
+- **Dynamic Domain Routing** — Custom domains + automated subdomains  
+- **Scalable Architecture** — Add modules without impacting other tenants  
+- **Centralized Management** — One dashboard for multiple client apps  
+- **Independent Site Hosting** — Custom branding per tenant  
+- **Stack Choice** — Laravel‑only, React‑only, or full‑stack  
+
+---
 
 ## Technology Stack
 
 ### Backend
-- **Laravel Framework**: Robust PHP backend with multi-tenancy support
-- **RESTful API**: Well-documented API endpoints for all platform features
-- **Database Isolation**: Tenant-specific databases or schema-based isolation
+- **Laravel** — Robust PHP backend with multi‑tenancy support  
+- **REST APIs** — Documented endpoints for all platform features  
+- **Database Isolation** — Tenant‑specific DBs or schema‑based separation  
 
 ### Frontend
-- **React Support**: Build modern, interactive user interfaces
-- **Laravel Blade**: Traditional server-side rendering option
-- **Flexible Integration**: Mix and match based on project requirements
+- **React** — Modern SPA experiences  
+- **Laravel Blade** — Server‑rendered pages  
+- **Flexible Integration** — Mix and match as needed  
 
-### Additional Technologies
-- **Filament Admin**: Optional admin panel integration
-- **Queue Management**: Background job processing for scalability
-- **Cache Layer**: Redis/Memcached support for performance
+### Additional
+- **Filament Admin** (optional)  
+- **Queues** for background jobs  
+- **Redis/Memcached** for caching  
 
-## How It Works for SaaS Providers
+---
 
-1. **Setup**: Deploy the Faxt platform on your infrastructure with multi-tenancy configurations
-2. **Configure**: Set up database connections, routing, and choose your technology stack
-3. **Onboard Tenants**: Create new tenant instances with custom configurations
-4. **Extend**: Add functionality through Laravel packages, React components, or both
-5. **Scale**: Grow your SaaS offering with automatic tenant provisioning and updates
+## How It Works (SaaS Providers)
 
-## How It Works for Developers
+1. **Setup** — Deploy Faxt on your infrastructure  
+2. **Configure** — DB connections, routing, and stack choices  
+3. **Onboard Tenants** — Create tenant instances with custom config  
+4. **Extend** — Add packages/components as needed  
+5. **Scale** — Automate tenant provisioning and updates  
 
-1. **Clone**: Start with the [prasso_api repository](https://github.com/prasso/prasso_api)
-2. **Configure**: Set up multi-tenant database connections and routing
-3. **Choose Stack**: Decide on Laravel-only, React-only, or full-stack approach
-4. **Develop**: Create packages, components, and plugins for extended functionality
-5. **Deploy**: Launch tenant sites with customized features
-6. **Maintain**: Manage updates and features across all tenant instances
+---
+
+## How It Works (Developers)
+
+1. **Clone** — [prasso_api](https://github.com/prasso/prasso_api)  
+2. **Configure** — Multi‑tenant DB + routing  
+3. **Choose Stack** — Laravel, React, or full‑stack  
+4. **Develop** — Packages, components, plugins  
+5. **Deploy** — Launch tenant sites  
+6. **Maintain** — Roll out updates across tenants  
+
+---
 
 ## Plugin & Component Development
 
-Faxt encourages a modular architecture where functionality can be added through packages and components:
+Faxt is built for modular development:
 
-- Create reusable Laravel packages for backend functionality
-- Build React components for rich frontend experiences
-- Maintain clean separation of core platform and custom features
-- Enable/disable features per tenant as needed
-- Distribute plugins and components to other Faxt installations
-- Mix backend and frontend modules based on requirements
+- Build reusable Laravel packages  
+- Create React components for rich UI  
+- Keep core vs custom features cleanly separated  
+- Enable/disable features per tenant  
+- Share plugins across Faxt installations  
+
+---
 
 ## Use Cases
 
-Faxt is ideal for building SaaS solutions across various industries:
+- **Accounting & Finance**  
+- **Salons & Spas**  
+- **Automotive Services**  
+- **Retail & Resale**  
+- **Real Estate**  
+- **Manufacturing / ERP**  
 
-- **Accounting & Financial Services**: Multi-tenant accounting platforms
-- **Salons & Spas**: Appointment and client management systems
-- **Automotive Services**: Shop management and inventory tracking
-- **Retail & Resale**: Point-of-sale and inventory systems
-- **Real Estate**: Property management and listing platforms
-- **Manufacturing**: ERP solutions for production and order management
+---
 
 ## Migration from Prasso.io
 
-We've transitioned from prasso.io to faxt.com to provide better long-term sustainability and focus on our multi-tenant SaaS capabilities. Existing installations will continue to work, and migration guides are available for updating domain references.
+Faxt has transitioned from **prasso.io** to **faxt.com** for long‑term sustainability. Existing installations continue to work, and migration guides are available for domain updates.
+
+---
 
 ## Getting Started
 
 ### Prerequisites
-- PHP 8.1 or higher
-- Composer
-- Node.js & NPM (for React development)
-- MySQL/PostgreSQL
+- PHP 8.1+  
+- Composer  
+- Node.js & npm (for React)  
+- MySQL/PostgreSQL  
 - Redis (recommended)
 
 ### Quick Start
+
 ```bash
 # Clone the repository
 git clone https://github.com/prasso/prasso_api.git
@@ -114,52 +132,53 @@ php artisan db:seed
 # Start development server
 php artisan serve
 npm run dev
-```
+
+---
 
 ## Contributing
 
-We welcome contributions to the Faxt ecosystem:
+We welcome:
 
-- Core platform improvements
-- New plugin packages and React components
-- Documentation enhancements
-- Bug fixes and performance optimizations
-- Framework integration improvements
+- Core platform improvements  
+- Plugin packages & React components  
+- Documentation updates  
+- Bug fixes & performance work  
 
-See our [Contribution Guidelines](https://github.com/prasso/prasso_api/blob/master/docs/contributing.md) for more details.
+See [Contribution Guidelines](https://github.com/prasso/prasso_api/blob/master/docs/contributing.md).
+
+---
 
 ## Documentation
 
-- **Setup Guide**: Detailed installation and configuration instructions
-- **Multi-Tenancy Guide**: Implementing and managing tenants
-- **Plugin Development**: Creating Laravel packages for Faxt
-- **Component Development**: Building React components for tenant frontends
-- **API Reference**: Complete API documentation
-- **Deployment Guide**: Production deployment best practices
+- **Setup Guide**  
+- **Multi‑Tenancy Guide**  
+- **Plugin Development**  
+- **Component Development**  
+- **API Reference**  
+- **Deployment Guide**  
+
+---
 
 ## Community & Support
 
-For technical support, business inquiries, or partnership opportunities:
+- **Email:** [info@faxt.com](mailto:info@faxt.com)  
+- **Issues:** GitHub Issues  
+- **Discussions:** GitHub Discussions  
 
-- **Email**: [info@faxt.com](mailto:info@faxt.com)
-- **Documentation**: Visit our GitHub repositories for detailed setup guides
-- **Issues**: Report bugs and request features via GitHub Issues
-- **Discussions**: Join conversations in GitHub Discussions
+---
 
 ## Repositories
 
-- **Main Platform**: [prasso_api](https://github.com/prasso/prasso_api)
-- **Spa & Salon Package**: [faxt-development/Spa-and-Salon](https://github.com/faxt-development/Spa-and-Salon)
-- **Additional Plugins**: Coming soon
+- **Main Platform:** [prasso_api](https://github.com/prasso/prasso_api)  
+- **Spa & Salon Package:** [faxt-development/Spa-and-Salon](https://github.com/faxt-development/Spa-and-Salon)  
+- **Additional Plugins:** Coming soon  
+
+---
 
 ## License
 
 Faxt is licensed under the [MIT License](LICENSE.md).
 
-## Acknowledgments
-
-Built with ❤️ by the Faxt team and contributors. Special thanks to the Laravel and React communities for their excellent frameworks and tools.
-
 ---
 
-*Building scalable multi-tenant SaaS solutions made simple - with the flexibility to choose your technology stack.*
+*Build scalable multi‑tenant SaaS solutions with the freedom to choose your stack.*
